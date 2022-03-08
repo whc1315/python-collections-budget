@@ -29,6 +29,11 @@ def main():
                   ''',
                         number=100000,
                         globals=globals()))
+    fig, ax = plt.subplots()
+    labels = ['Necessary', 'Food', 'Unecessary']
+    divided_expense_sum = []
+    for category_exps in divided_set_comp:
+        divided_expense_sum.append(sum(x.amount for x in category_exps))
 
 
 if __name__ == "__main__":
