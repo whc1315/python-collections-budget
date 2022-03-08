@@ -26,8 +26,7 @@ class BudgetList:
         return self
 
     def __next__(self):
-        try:
-            return
+        pass
 
 
 def main():
