@@ -27,3 +27,6 @@ class BudgetList:
 
 def main():
     myBudgetList = BudgetList(1200)
+
+    for expense in expenses.list:
+        myBudgetList.append(expenses.list)
